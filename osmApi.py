@@ -3,7 +3,7 @@ from time import sleep
 from sys import exc_info
 from xmltodict import parse
  
-ids = [251165455]
+ids = [531300655]
 for wayid in ids:
     try:
         response = urlopen('http://www.openstreetmap.org/api/0.6/way/{0}/full'.format(wayid))
